@@ -7,11 +7,11 @@
 		<array>
 			<dict>
 				<key>AudioBitrate</key>
-				<string>160</string>
+				<string>384</string>
 				<key>AudioEncoder</key>
-				<string>AAC (faac)</string>
+				<string>AC3 Passthru</string>
 				<key>AudioMixdown</key>
-				<string>Dolby Pro Logic II</string>
+				<string>AC3 Passthru</string>
 				<key>AudioSamplerate</key>
 				<string>Auto</string>
 				<key>AudioTrack</key>
@@ -47,7 +47,7 @@
 				<key>AudioSamplerate</key>
 				<string>Auto</string>
 				<key>AudioTrack</key>
-				<integer>3</integer>
+				<integer>2</integer>
 				<key>AudioTrackDRCSlider</key>
 				<real>0</real>
 				<key>AudioTrackDescription</key>
@@ -63,7 +63,7 @@
 				<key>AudioSamplerate</key>
 				<string>Auto</string>
 				<key>AudioTrack</key>
-				<integer>4</integer>
+				<integer>3</integer>
 				<key>AudioTrackDRCSlider</key>
 				<real>0</real>
 				<key>AudioTrackDescription</key>
@@ -91,9 +91,9 @@
 		<key>PictureDeblock</key>
 		<integer>6</integer>
 		<key>PictureDecomb</key>
-		<integer>2</integer>
+		<integer>1</integer>
 		<key>PictureDecombCustom</key>
-		<string></string>
+		<string>405:2:6:9:1:40:16:16:10:20:20:4:2:50:24:1:-1</string>
 		<key>PictureDecombDeinterlace</key>
 		<true />
 		<key>PictureDeinterlace</key>
@@ -117,7 +117,7 @@
 		<key>PictureLooseCrop</key>
 		<true />
 		<key>PictureModulus</key>
-		<integer>1</integer>
+		<string>2</string>
 		<key>PicturePAR</key>
 		<string>1</string>
 		<key>PicturePARHeight</key>
@@ -135,7 +135,7 @@
 		<key>PresetDescription</key>
 		<string>HandBrake&apos;s normal, default settings.</string>
 		<key>PresetName</key>
-		<string>boogiepop_01</string>
+		<string>01-ed</string>
 		<key>SubtitleList</key>
 		<array>
 			<dict>
